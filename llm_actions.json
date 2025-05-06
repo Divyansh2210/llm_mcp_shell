@@ -1,0 +1,283 @@
+[
+  {
+    "timestamp": "2025-05-06T15:44:17.276652",
+    "action_type": "command_execution_start",
+    "status": "success",
+    "prompt": "List files in current directory",
+    "reasoning": "Executing command through MCP server",
+    "command": "ls"
+  },
+  {
+    "timestamp": "2025-05-06T15:47:18.237402",
+    "action_type": "command_execution_start",
+    "status": "success",
+    "prompt": "Show current working directory",
+    "reasoning": "Executing command through MCP server",
+    "command": "pwd"
+  },
+  {
+    "timestamp": "2025-05-06T15:49:36.158659",
+    "action_type": "command_execution_start",
+    "status": "success",
+    "prompt": "Show current working directory",
+    "reasoning": "Executing command through MCP server",
+    "command": "pwd"
+  },
+  {
+    "timestamp": "2025-05-06T15:53:05.788862",
+    "action_type": "command_execution_start",
+    "status": "success",
+    "reasoning": "Executing command in sandbox environment",
+    "command": "pwd"
+  },
+  {
+    "timestamp": "2025-05-06T15:53:05.792179",
+    "action_type": "command_execution_success",
+    "status": "success",
+    "command": "pwd",
+    "output": "/Users/sahud/bash-mcp-sandbox\n"
+  },
+  {
+    "timestamp": "2025-05-06T15:59:15.472646",
+    "action_type": "ui_command_execution_start",
+    "command": "touch test_8.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "create a new file called test_8.txt",
+      "source": "ui"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T15:59:15.507696",
+    "action_type": "ui_command_execution_error",
+    "command": "touch test_8.txt",
+    "status": "error",
+    "error": "Sandbox error",
+    "context": {
+      "purpose": "create a new file called test_8.txt",
+      "source": "ui"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:00:11.135056",
+    "action_type": "ui_command_execution_start",
+    "command": "touch test_8.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Create a new file named test_8.txt",
+      "source": "ui"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:00:11.174558",
+    "action_type": "ui_command_execution_error",
+    "command": "touch test_8.txt",
+    "status": "error",
+    "error": "Sandbox error",
+    "context": {
+      "purpose": "Create a new file named test_8.txt",
+      "source": "ui"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:01:15.202863",
+    "action_type": "ui_command_execution_start",
+    "command": "echo 'test_8.txt' > test_8.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Creates a new file named test_8.txt",
+      "source": "ui"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:01:15.243606",
+    "action_type": "ui_command_execution_error",
+    "command": "echo 'test_8.txt' > test_8.txt",
+    "status": "error",
+    "error": "Sandbox error",
+    "context": {
+      "purpose": "Creates a new file named test_8.txt",
+      "source": "ui"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:04:59.920130",
+    "action_type": "ui_command_execution_start",
+    "command": "touch test_8.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Creates a new file named test_8.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:04:59.966110",
+    "action_type": "ui_command_execution_error",
+    "command": "touch test_8.txt",
+    "status": "error",
+    "error": "Sandbox error: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"command\"],\"msg\":\"Field required\",\"input\":null}]}",
+    "context": {
+      "purpose": "Creates a new file named test_8.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:07:55.140414",
+    "action_type": "ui_command_execution_start",
+    "command": "touch test_8.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Creates a new file named test_8.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:07:55.172993",
+    "action_type": "ui_command_execution_error",
+    "command": "touch test_8.txt",
+    "status": "error",
+    "error": "Sandbox error: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"command\"],\"msg\":\"Field required\",\"input\":null}]}",
+    "context": {
+      "purpose": "Creates a new file named test_8.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:08:06.772876",
+    "action_type": "ui_command_execution_start",
+    "command": "touch test_10.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Creates a new file named test_10.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:08:06.788890",
+    "action_type": "ui_command_execution_error",
+    "command": "touch test_10.txt",
+    "status": "error",
+    "error": "Sandbox error: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"command\"],\"msg\":\"Field required\",\"input\":null}]}",
+    "context": {
+      "purpose": "Creates a new file named test_10.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:08:29.309037",
+    "action_type": "ui_command_execution_start",
+    "command": "touch test_10.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Creates a new file named test_10.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:08:29.334986",
+    "action_type": "ui_command_execution_error",
+    "command": "touch test_10.txt",
+    "status": "error",
+    "error": "Sandbox error: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"command\"],\"msg\":\"Field required\",\"input\":null}]}",
+    "context": {
+      "purpose": "Creates a new file named test_10.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:10:24.717837",
+    "action_type": "ui_command_execution_start",
+    "command": "touch test_11.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Creates a new file named test_11.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:10:24.809921",
+    "action_type": "ui_command_execution_error",
+    "command": "touch test_11.txt",
+    "status": "error",
+    "error": "Sandbox error: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"command\"],\"msg\":\"Field required\",\"input\":null}]}",
+    "context": {
+      "purpose": "Creates a new file named test_11.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:10:28.885778",
+    "action_type": "ui_command_execution_start",
+    "command": "touch test_11.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Creates a new file named test_11.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:10:28.902818",
+    "action_type": "ui_command_execution_error",
+    "command": "touch test_11.txt",
+    "status": "error",
+    "error": "Sandbox error: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"command\"],\"msg\":\"Field required\",\"input\":null}]}",
+    "context": {
+      "purpose": "Creates a new file named test_11.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:40:01.200676",
+    "action_type": "ui_command_execution_start",
+    "command": "touch test_11.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Creates a new file named test_11.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:40:01.245340",
+    "action_type": "ui_command_execution_success",
+    "command": "touch test_11.txt",
+    "status": "success",
+    "context": {
+      "purpose": "Creates a new file named test_11.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:49:47.261700",
+    "action_type": "ui_command_execution_start",
+    "command": "echo '' > test_12.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Creates a new file named test_12.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:49:47.295611",
+    "action_type": "ui_command_execution_success",
+    "command": "echo '' > test_12.txt",
+    "status": "success",
+    "context": {
+      "purpose": "Creates a new file named test_12.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:50:30.481390",
+    "action_type": "ui_command_execution_start",
+    "command": "touch test_14.txt",
+    "status": "success",
+    "reasoning": "Command received from UI interface",
+    "context": {
+      "purpose": "Creates a new file named test_14.txt"
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:50:30.507105",
+    "action_type": "ui_command_execution_success",
+    "command": "touch test_14.txt",
+    "status": "success",
+    "context": {
+      "purpose": "Creates a new file named test_14.txt"
+    }
+  }
+]
